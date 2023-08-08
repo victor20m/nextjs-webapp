@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Grid from '@mui/material/Grid';
 import { Box, TextField } from '@mui/material';
@@ -57,22 +56,6 @@ export default () => {
           height: '100vh',
         }}>
           <CssBaseline />
-
-          <Head>
-            <title>Create Next App</title>
-            <meta name="viewport" content="initial-scale=1, width=device-width" />
-            <link rel="icon" href="/favicon.ico" />
-            <link
-              rel="stylesheet"
-              href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-            />
-            <link
-              rel="stylesheet"
-              href="https://fonts.googleapis.com/icon?family=Material+Icons"
-            />
-          </Head>
-
-
         </Grid>
       </div>
       <Box
@@ -180,8 +163,6 @@ export default () => {
           box-sizing: border-box;
         }
       `}</style>
-
-
     </ThemeProvider >
   )
 }
