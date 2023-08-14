@@ -20,13 +20,20 @@
     "jsx": "preserve",
     "noImplicitAny": true,
     "allowSyntheticDefaultImports": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": true
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
     "next.config.js",
-    "pages/login/index.jsx"
+    "pages/login/index.jsx",
+    ".next/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"
